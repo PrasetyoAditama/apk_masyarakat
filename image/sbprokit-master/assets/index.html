@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Template</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
+
+    <!-- Kube CSS -->
+    <link rel="stylesheet" href="css/sbprokit.css">
+
+    <link rel="stylesheet" href="css/demo.css">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<a href="#" class="button outline" data-component="offcanvas" data-target="#offcanvas-left" style="position: fixed; top: 20px; right: 20px">
+			<i class="kube-menu"></i>
+		</a>
+
+		<div id="offcanvas-left" class="hide offcanvas offcanvas-left">
+		    <nav>
+		        <ul>
+		            <li><a href="#buttons">Buttons</a></li>
+		            <li><a href="#forms">Forms</a></li>
+		            <li><a href="#navigation">Navigation</a></li>
+		            <li><a href="#labels">Labels</a></li>
+		            <li><a href="#tables">Tabels</a></li>
+		            <li><a href="#alerts">Alerts</a></li>
+		            <li><a href="#alerts">Tabs</a></li>
+		            <li><a href="#breadcrumbs">Breadcrumbs</a></li>
+		            <li><a href="#pagination">Pagination</a></li>
+		        </ul>
+		    </nav>
+		</div>
+
+		<div class="row m-b-60" id="buttons">
+
+			<div class="col col-12 m-b-60">
+				<h2>Buttons</h2>
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Regular Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div>
+					<button class="button">Primary Button</button>
+					<button class="button secondary">Secondary Button</button>
+					<button class="button black">Dark Button</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Additional Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div>
+					<button class="button active">Active Button</button>
+					<button class="button success">Success Button</button>
+					<button class="button warning">Warning Button</button>
+					<button class="button error">Error Button</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Outline Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div>
+					<button class="button outline">Primary Button</button>
+					<button class="button outline secondary">Secondary Button</button>
+					<button class="button outline black">Dark Button</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Pill Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div class="m-b-20">
+					<button class="button round">Primary Button</button>
+					<button class="button round secondary">Secondary Button</button>
+					<button class="button round black">Dark Button</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Button Sizes</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div class="m-b-20">
+					<a href="#" class="button small" role="button">Link</a>
+					<button class="button secondary small">Button</button>
+					<button class="button black small">Button</button>
+				</div>
+
+				<div class="m-b-20">
+					<a href="#" class="button" role="button">Link</a>
+					<button class="button secondary">Button</button>
+					<button class="button black">Button</button>
+				</div>
+
+				<div class="m-b-20">
+					<a href="#" class="button big" role="button">Link</a>
+					<button class="button secondary big">Button</button>
+					<button class="button black big">Button</button>
+				</div>
+
+				<div>
+					<a href="#" class="button large" role="button">Link</a>
+					<button class="button secondary large">Button</button>
+					<button class="button black large">Button</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Uppercase Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<a href="#" class="button upper" role="button">Link</a>
+				<button class="button secondary upper">Button</button>
+				<button class="button black upper">Button</button>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Width Variations</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div class="m-b-20">
+					<button class="button w100">Button 100%</button>
+				</div>
+				<div class="m-b-20">
+					<button class="button w75">Button 75%</button>
+				</div>
+				<div class="m-b-20">
+					<button class="button w50">Button 50%</button>
+				</div>
+				<div class="m-b-20">
+					<button class="button w25">Button 25%</button>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Inverted Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60 bg-secondary p-a-20">
+
+				<a href="#" class="button inverted" role="button">Link</a>
+				<button class="button inverted outline">Button</button>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Icon Buttons</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<button class="button"><i class="kube-calendar"></i></button>
+				<button class="button secondary"><i class="kube-calendar"></i> Change</button>
+
+				<button class="button outline"><i class="kube-search"></i></button>
+				<button class="button secondary outline"><i class="kube-search"></i> Search</button>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+				<h3>Button Dropdowns</h3>
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-60">
+
+				<div class="row">
+
+					<div class="col col-6">
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown1" class="button large">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown1">
+							    <a href="" class="close show-sm"></a>
+							    <ul>
+							        <li><a href="">This link one</a></li>
+							        <li><a href="">This link two</a></li>
+							        <li><a href="">This link three</a></li>
+							        <li><a href="">This link four</a></li>
+							    </ul>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown2" class="button secondary big">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown2">
+							    <a href="" class="close show-sm"></a>
+							    <ul>
+							        <li><a href="">This link one</a></li>
+							        <li><a href="">This link two</a></li>
+							        <li><a href="">This link three</a></li>
+							        <li><a href="">This link four</a></li>
+							    </ul>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown3" class="button black">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown3">
+							    <a href="" class="close show-sm"></a>
+							    <ul>
+							        <li><a href="">This link one</a></li>
+							        <li><a href="">This link two</a></li>
+							        <li><a href="">This link three</a></li>
+							        <li><a href="">This link four</a></li>
+							    </ul>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown4" class="button small black">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown4">
+							    <a href="" class="close show-sm"></a>
+							    <ul>
+							        <li><a href="">This link one</a></li>
+							        <li><a href="">This link two</a></li>
+							        <li><a href="">This link three</a></li>
+							        <li><a href="">This link four</a></li>
+							    </ul>
+							</div>
+						</div>
+
+					</div><!-- /.col -->
+
+					<div class="col col-6">
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown5" class="button large outline">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown5">
+								<div class="p-a-20">
+								    <p>
+								    	Suspendisse et tincidunt nibh. Cras mollis urna mauris, nec sollicitudin nisl gravida nec. In nec sem ut dui consequat maximus. Vivamus vel hendrerit massa, facilisis vehicula massa. Etiam a turpis quis diam aliquet pretium. Phasellus ut dapibus felis, ac vestibulum justo. Vivamus purus ligula, feugiat non eros a, dictum feugiat purus.
+								    </p>
+	    							<a href="#" data-action="dropdown-close">Close</a>
+    							</div>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown6" class="button secondary big outline">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown6">
+							    <div class="p-a-20">
+								    <p>
+								    	Suspendisse et tincidunt nibh. Cras mollis urna mauris, nec sollicitudin nisl gravida nec. In nec sem ut dui consequat maximus. Vivamus vel hendrerit massa, facilisis vehicula massa. Etiam a turpis quis diam aliquet pretium. Phasellus ut dapibus felis, ac vestibulum justo. Vivamus purus ligula, feugiat non eros a, dictum feugiat purus.
+								    </p>
+	    							<a href="#" data-action="dropdown-close">Close</a>
+    							</div>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown7" class="button black outline">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown7">
+							    <div class="p-a-20">
+								    <p>
+								    	Suspendisse et tincidunt nibh. Cras mollis urna mauris, nec sollicitudin nisl gravida nec. In nec sem ut dui consequat maximus. Vivamus vel hendrerit massa, facilisis vehicula massa. Etiam a turpis quis diam aliquet pretium. Phasellus ut dapibus felis, ac vestibulum justo. Vivamus purus ligula, feugiat non eros a, dictum feugiat purus.
+								    </p>
+	    							<a href="#" data-action="dropdown-close">Close</a>
+    							</div>
+							</div>
+						</div>
+
+						<div class="m-b-20">
+							<button data-component="dropdown" data-target="#my-dropdown8" class="button small black outline">Show Dropdown <span class="caret down"></span></button>
+							<div class="dropdown hide" id="my-dropdown8">
+							    <div class="p-a-20">
+								    <p>
+								    	Suspendisse et tincidunt nibh. Cras mollis urna mauris, nec sollicitudin nisl gravida nec. In nec sem ut dui consequat maximus. Vivamus vel hendrerit massa, facilisis vehicula massa. Etiam a turpis quis diam aliquet pretium. Phasellus ut dapibus felis, ac vestibulum justo. Vivamus purus ligula, feugiat non eros a, dictum feugiat purus.
+								    </p>
+	    							<a href="#" data-action="dropdown-close">Close</a>
+    							</div>
+							</div>
+						</div>
+
+					</div><!-- /.col -->
+
+				</div><!-- /.row -->
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="forms">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Forms</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Inputs</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="row gutters">
+
+					<div class="col col-6">
+
+						<div class="form-item">
+					        <input type="text" class="big" placeholder="Deactivated Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="" placeholder="Deactivated Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="small" placeholder="Deactivated Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="big success" placeholder="Success Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="success" placeholder="Success Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="small success" placeholder="Success Input">
+					    </div>
+
+					</div><!-- /.col -->
+
+					<div class="col col-6">
+
+						<div class="form-item">
+					        <input type="text" class="big error" placeholder="Failed Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="error" placeholder="Failed Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="small error" placeholder="Failed Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="big" disabled placeholder="Disabled Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="" disabled placeholder="Disabled Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="small" disabled placeholder="Disabled Input">
+					    </div>
+
+					</div><!-- /.col -->
+
+				</div><!-- /.row -->
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Input Variations</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="row gutters">
+
+					<div class="col col-6">
+
+						<div class="form-item">
+					        <div class="prepend">
+					            <span>$</span>
+					            <input type="text">
+					        </div>
+					    </div>
+
+					    <div class="form-item">
+					        <div class="append">
+					            <input type="text"><span>$</span>
+					        </div>
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="round big" placeholder="Deactivated Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="round" placeholder="Deactivated Input">
+					    </div>
+
+					    <div class="form-item">
+					        <input type="text" class="round small" placeholder="Deactivated Input">
+					    </div>
+
+					</div><!-- /.col -->
+
+					<div class="col col-6">
+
+						<div class="form-item">
+					        <div class="append">
+					            <input type="text" name="search" placeholder="Search">
+					            <button class="button outline">Go</button>
+					        </div>
+					    </div>
+
+					    <div class="form-item">
+					        <div class="append">
+					            <input type="text" name="search" placeholder="Search">
+					            <button class="button secondary">Go Later</button>
+					        </div>
+					    </div>
+
+					    <div class="form-item">
+					        <div class="prepend icon">
+					            <span><i class="kube-search"></i></span>
+					            <input type="text">
+					        </div>
+					    </div>
+
+					    <div class="form-item">
+					        <div class="append icon">
+					            <input type="text"><span><i class="kube-calendar"></i></span>
+					        </div>
+					    </div>
+
+					</div><!-- /.col -->
+
+				</div><!-- /.row -->
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Select Dropdowns</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="form-item">
+			        <select class="big w100">
+			            <option value="">Option One</option>
+			            <option value="">Option Two</option>
+			            <option value="">Option Three</option>
+			        </select>
+			    </div>
+
+			    <div class="form-item">
+			        <select class="w50">
+			            <option value="">Option One</option>
+			            <option value="">Option Two</option>
+			            <option value="">Option Three</option>
+			        </select>
+			    </div>
+
+			    <div class="form-item">
+			        <select class="w25 small">
+			            <option value="">Option One</option>
+			            <option value="">Option Two</option>
+			            <option value="">Option Three</option>
+			        </select>
+			    </div>
+
+			</div><!-- /.row -->
+
+			<div class="col col-4">
+
+				<h3>Radio & Checkboxes</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="row gutters">
+
+					<div class="col col-6">
+
+						<div class="form-item form-checkboxes">
+					        <label class="checkbox"><input type="checkbox"> Check 1</label>
+					       	<label class="checkbox"><input type="checkbox"> Check 2</label>
+					       	<label class="checkbox"><input type="checkbox"> Check 3</label>
+					    </div>
+
+					    <div class="form-item">
+        					<label class="checkbox"><input type="checkbox"> Check 1</label>
+        					<label class="checkbox"><input type="checkbox"> Check 2</label>
+        					<label class="checkbox"><input type="checkbox"> Check 3</label>
+	    				</div>
+
+					</div><!-- /.col -->
+
+					<div class="col col-6">
+
+						<div class="form-item form-checkboxes">
+        					<label class="checkbox"><input type="radio"> Radio 1</label>
+        					<label class="checkbox"><input type="radio"> Radio 2</label>
+        					<label class="checkbox"><input type="radio"> Radio 3</label>
+    					</div>
+
+    					<div class="form-item">
+        					<label class="checkbox"><input type="radio"> Radio 1</label>
+        					<label class="checkbox"><input type="radio"> Radio 2</label>
+        					<label class="checkbox"><input type="radio"> Radio 3</label>
+    					</div>
+
+					</div><!-- /.col -->
+
+				</div><!-- /.row -->
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Textareas</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="form-item">
+			        <textarea rows="4">100% width</textarea>
+			    </div>
+
+			    <div class="form-item">
+			        <textarea rows="4" class="w50">50% width</textarea>
+			    </div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="navigation">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Navigation</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Navigation Bars</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="nav">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav light">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav dark">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit-light.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav outline aluminum">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav outline silver">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav outline lightgray">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav outline gray">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="nav outline midgray">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="">Our Blog</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>With Buttons</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="nav">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+				<div class="nav light">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+				<div class="nav dark">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit-light.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Layout Variations</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="nav light l-l-r">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+				<div class="nav light l-c-r">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+				<div class="nav light l-r-r">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+				<div class="nav light c-c-c">
+					<div class="navbar-brand"><a href=""><img src="img/SBPro Kit.png"></a></div>
+					<nav>
+						<a href="">Home</a>
+						<a href="">About us</a>
+						<a href="#" data-component="dropdown" data-target="#my-dropdown67">Careers <span class="caret down"></span></a>
+						<div class="dropdown hide" id="my-dropdown67">
+						    <a href="" class="close show-sm"></a>
+						    <ul>
+						        <li><a href="">The first link</a></li>
+						        <li><a href="">The second link</a></li>
+						        <li><a href="">The third link</a></li>
+						        <li><a href="">The fourth link</a></li>
+						    </ul>
+						</div>
+					</nav>
+					<div class="buttons">
+						<button class="button small">Login</button>
+						<button class="button secondary small">Signup</button>
+					</div>
+				</div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="labels">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Labels</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Basic Labels</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label">Default</span>&nbsp;&nbsp;
+				<span class="label success">Success</span>&nbsp;&nbsp;
+				<span class="label error">Error</span>&nbsp;&nbsp;
+				<span class="label warning">Warning</span>&nbsp;&nbsp;
+				<span class="label focus">Focus</span>&nbsp;&nbsp;
+				<span class="label black">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Outlined Labels</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label outline">Default</span>&nbsp;&nbsp;
+				<span class="label success outline">Success</span>&nbsp;&nbsp;
+				<span class="label error outline">Error</span>&nbsp;&nbsp;
+				<span class="label warning outline">Warning</span>&nbsp;&nbsp;
+				<span class="label focus outline">Focus</span>&nbsp;&nbsp;
+				<span class="label black outline">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted outline">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Uppercase Labels</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label upper">Default</span>&nbsp;&nbsp;
+				<span class="label success upper">Success</span>&nbsp;&nbsp;
+				<span class="label error upper">Error</span>&nbsp;&nbsp;
+				<span class="label warning upper">Warning</span>&nbsp;&nbsp;
+				<span class="label focus upper">Focus</span>&nbsp;&nbsp;
+				<span class="label black upper">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted upper">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Tags</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label tag">Default</span>&nbsp;&nbsp;
+				<span class="label success tag">Success</span>&nbsp;&nbsp;
+				<span class="label error tag">Error</span>&nbsp;&nbsp;
+				<span class="label warning tag">Warning</span>&nbsp;&nbsp;
+				<span class="label focus tag">Focus</span>&nbsp;&nbsp;
+				<span class="label black tag">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted tag">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Badges</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label badge">Default</span>&nbsp;&nbsp;
+				<span class="label success badge">Success</span>&nbsp;&nbsp;
+				<span class="label error badge">Error</span>&nbsp;&nbsp;
+				<span class="label warning badge">Warning</span>&nbsp;&nbsp;
+				<span class="label focus badge">Focus</span>&nbsp;&nbsp;
+				<span class="label black badge">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted badge">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Outlined Badges</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<span class="label badge outline">Default</span>&nbsp;&nbsp;
+				<span class="label success badge outline">Success</span>&nbsp;&nbsp;
+				<span class="label error badge outline">Error</span>&nbsp;&nbsp;
+				<span class="label warning badge outline">Warning</span>&nbsp;&nbsp;
+				<span class="label focus badge outline">Focus</span>&nbsp;&nbsp;
+				<span class="label black badge outline">Black</span>&nbsp;&nbsp;
+				<span style="background: #666; padding: 6px;"><span class="label inverted badge outline">Inverted</span></span>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="tables">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Tables</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Basic</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table>
+	                <thead>
+	                    <tr>
+	                        <th>First Name</th>
+	                        <th>Last Name</th>
+	                        <th>Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	                <tfoot>
+	                    <tr>
+	                        <td colspan="2">Total points</td>
+	                        <td>223</td>
+	                    </tr>
+	                </tfoot>
+	            </table>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Bordered</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table class="bordered">
+	                <thead>
+	                    <tr>
+	                        <th>First Name</th>
+	                        <th>Last Name</th>
+	                        <th>Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	                <tfoot>
+	                    <tr>
+	                        <td colspan="2">Total points</td>
+	                        <td>223</td>
+	                    </tr>
+	                </tfoot>
+	            </table>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Striped</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table class="striped">
+	                <thead>
+	                    <tr>
+	                        <th>First Name</th>
+	                        <th>Last Name</th>
+	                        <th>Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	                <tfoot>
+	                    <tr>
+	                        <td colspan="2">Total points</td>
+	                        <td>223</td>
+	                    </tr>
+	                </tfoot>
+	            </table>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Unstyled</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table class="unstyled">
+	                <thead>
+	                    <tr>
+	                        <th>First Name</th>
+	                        <th>Last Name</th>
+	                        <th>Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	                <tfoot>
+	                    <tr>
+	                        <td colspan="2">Total points</td>
+	                        <td>223</td>
+	                    </tr>
+	                </tfoot>
+	            </table>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Mixed</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table class="bordered striped">
+	                <thead>
+	                    <tr>
+	                        <th>First Name</th>
+	                        <th>Last Name</th>
+	                        <th>Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	                <tfoot>
+	                    <tr>
+	                        <td colspan="2">Total points</td>
+	                        <td>223</td>
+	                    </tr>
+	                </tfoot>
+	            </table>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Width</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<table class="bordered">
+	                <thead>
+	                    <tr>
+	                        <th class="w40">First Name</th>
+	                        <th class="w40">Last Name</th>
+	                        <th class="w20">Points</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Jill</td>
+	                        <td>Smith</td>
+	                        <td>50</td>
+	                    </tr>
+	                    <tr>
+	                        <td>Eve</td>
+	                        <td>Jackson</td>
+	                        <td>94</td>
+	                    </tr>
+	                </tbody>
+	            </table>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="alerts">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Alerts</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Alert Styles</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="message open" data-component="message">
+					You have 2 modules waiting to installation. <a href="#install">Install</a> <span class="close small"></span>
+				</div>
+
+				<div class="message error" data-component="message">
+					You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small"></span>
+				</div>
+
+				<div class="message success open" data-component="message">
+					You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small"></span>
+				</div>
+
+				<div class="message warning open" data-component="message">
+					<h5>Warning!</h5>
+					<p>
+						You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small"></span>
+					</p>
+				</div>
+
+				<div class="message focus open" data-component="message">
+					You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small"></span>
+				</div>
+
+				<div class="message black open" data-component="message">
+					You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small white"></span>
+				</div>
+
+				<div class="message inverted open" data-component="message">
+					You have 2 modules waiting to installation. <a href="">Install</a> <span class="close small"></span>
+				</div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="tabs">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Tabs</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Basic Tabs</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="tabs" data-component="tabs">
+			        <ul>
+			            <li class="active"><a href="#tab1" rel="#tab1">Home</a></li>
+			            <li><a href="#tab2" rel="#tab2">Shop</a></li>
+			            <li><a href="#tab3" rel="#tab3">Catalog</a></li>
+			            <li><a href="#tab4" rel="#tab4">T-Shirts</a></li>
+			            <li><a href="#tab5" rel="#tab5">Brand</a></li>
+			        </ul>
+    			</nav>
+
+    			<div id="tab1" class="open">
+			        <h5>Home</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab2" class="hide">
+			        <h5>Shop</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab3" class="hide">
+			        <h5>Catalog</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab4" class="hide">
+			        <h5>T-Shirts</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab5" class="hide">
+			        <h5>Brand</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Equal Height Tabs</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="tabs" data-component="tabs" data-equals="true">
+			        <ul>
+			            <li class="active"><a href="#tab11" rel="#tab11">Home</a></li>
+			            <li><a href="#tab12" rel="#tab12">Shop</a></li>
+			            <li><a href="#tab13" rel="#tab13">Catalog</a></li>
+			            <li><a href="#tab14" rel="#tab14">T-Shirts</a></li>
+			            <li><a href="#tab15" rel="#tab15">Brand</a></li>
+			        </ul>
+    			</nav>
+
+    			<div id="tab11" class="open">
+			        <h5>Home</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab12" class="hide">
+			        <h5>Shop</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab13" class="hide">
+			        <h5>Catalog</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab14" class="hide">
+			        <h5>T-Shirts</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab15" class="hide">
+			        <h5>Brand</h5>
+			        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Live Tabs</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav id="livetabs" data-component="tabs" data-live=".tab-live">
+					<ul>
+						<li class="active">
+							<a href="#tab-general" rel="#tab-general">General</a>
+						</li>
+						<li>
+							<a href="#tab-additional" rel="#tab-additional">Additional</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="tab-general" data-title="General" class="tab-live open">
+			        <h5>General</h5>
+			        <p>This is very General Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			    <div id="tab-additional" data-title="Additional" class="tab-live hide">
+			        <h5>Additional</h5>
+			        <p>Quite an additional is displayed here: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			    </div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="breadcrumbs">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Breadcrumbs</h2>
+
+			</div>
+
+			<div class="col col-4">
+
+				<h3>Live Tabs</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="breadcrumbs">
+	                <ul>
+	                    <li><a href="#">Home</a></li>
+	                    <li><a href="#">Shop</a></li>
+	                    <li><a href="#">Catalog</a></li>
+	                    <li><a href="#">T-Shirts</a></li>
+	                    <li><span>Brand</span></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Centered</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="breadcrumbs push-center">
+	                <ul>
+	                    <li><a href="#">Home</a></li>
+	                    <li><a href="#">Shop</a></li>
+	                    <li><a href="#">Catalog</a></li>
+	                    <li><a href="#">T-Shirts</a></li>
+	                    <li class="active"><a href="">Brand</a></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Custom Seperator</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="breadcrumbs" id="breadcrumbs-custom-separator">
+	                <ul>
+	                    <li><a href="#">Home</a></li>
+	                    <li><a href="#">Shop</a></li>
+	                    <li><a href="#">Catalog</a></li>
+	                    <li><a href="#">T-Shirts</a></li>
+	                    <li class="active"><a href="">Brand</a></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="pagination">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Pagination</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Basic Pagination</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="pagination">
+	                <ul>
+	                    <li class="prev"><a href="#">←</a></li>
+	                    <li>
+	                        <ul>
+	                            <li><span>1</span></li>
+	                            <li><a href="#">2</a></li>
+	                            <li><a href="#">3</a></li>
+	                            <li><a href="#">4</a></li>
+	                            <li><a href="#">5</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="next"><a href="#">→</a></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Centered</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="pagination align-center">
+	                <ul>
+	                    <li class="prev"><a href="#">←</a></li>
+	                    <li>
+	                        <ul>
+	                            <li><span>1</span></li>
+	                            <li><a href="#">2</a></li>
+	                            <li><a href="#">3</a></li>
+	                            <li><a href="#">4</a></li>
+	                            <li><a href="#">5</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="next"><a href="#">→</a></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Wide</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<nav class="pagination align-center upper strong">
+	                <ul>
+	                    <li class="prev"><a href="#">&lt; Prev</a></li>
+	                    <li class="w100">
+	                        <ul>
+	                            <li><a href="#">Back to catalog</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="next"><a href="#">Next &gt;</a></li>
+	                </ul>
+	            </nav>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Pager</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<div class="m-b-20">
+					<nav class="pagination pager">
+					    <ul>
+					        <li class="prev"><a href="">Previous</a></li>
+					        <li class="next"><a href="">Next</a></li>
+					    </ul>
+					</nav>
+				</div>
+
+				<div class="m-b-20">
+					<nav class="pagination pager align-center">
+					    <ul>
+					        <li class="prev"><a href="">Previous</a></li>
+					        <li class="next"><a href="">Next</a></li>
+					    </ul>
+					</nav>
+				</div>
+
+				<div class="m-b-20">
+					<nav class="pagination pager flat">
+					    <ul>
+					        <li class="prev">
+					            <span class="label tag">Prev</span>
+					            <a href="">Learn How to Use Images on Your Website</a>
+					        </li>
+					        <li class="next">
+					            <span class="label tag">Next</span>
+					            <a href="">Your Guide to Flat Design</a>
+					        </li>
+					    </ul>
+					</nav>
+				</div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+		<div class="row m-b-60" id="modals">
+
+			<div class="col col-12 m-b-60">
+
+				<h2>Modals</h2>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Basic Modal</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<button data-component="modal" data-target="#my-modal">Open Basic Modal</button>
+
+				<div id="my-modal" class="modal-box hide">
+				    <div class="modal">
+				        <span class="close"></span>
+				        <div class="modal-header">Modal Header</div>
+				        <div class="modal-body">
+				        	<p>
+				        		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				        	</p>
+				        	<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+				        </div>
+				    </div>
+				</div>
+
+			</div><!-- /.col -->
+
+			<div class="col col-4">
+
+				<h3>Content from URL</h3>
+
+			</div><!-- /.col -->
+
+			<div class="col col-8 m-b-40">
+
+				<button data-component="modal" data-target="#my-modal2" data-url="modal.html">Open URL Content</button>
+
+				<div id="my-modal2" class="modal-box hide">
+				    <div class="modal">
+				        <span class="close"></span>
+				        <div class="modal-header">Modal Header</div>
+				        <div class="modal-body">
+				        </div>
+				    </div>
+				</div>
+
+			</div><!-- /.col -->
+
+		</div><!-- /.row -->
+
+	</div><!-- /.container -->
+
+    <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/kube.js"></script>
+</body>
+</html>
