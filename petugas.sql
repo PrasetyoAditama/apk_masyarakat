@@ -41,7 +41,7 @@ CREATE TABLE `petugas` (
 --
 
 INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `telp`, `level`) VALUES
-(80, 'Eagle', 'fbi1244', '121322', '081301023323', 'petugas'),
+(80, 'Kurnass', 'gia1284', '121322', '081301023323', 'petugas'),
 (81, 'Prasetyo', 'prasetyo', 'arimay', '008231200123', 'admin'),
 (82, 'Ahmad', 'inglish12', '8888', '978451', 'petugas');
 
